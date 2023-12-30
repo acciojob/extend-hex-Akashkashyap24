@@ -10,8 +10,8 @@ const extendHex = (shortHex) => {
 		output+=shortHex[i]+shortHex[i];
 		i++;
 	}
-	return isCapital?output.toUpperCase();output;
+	return isCapital?output.toUpperCase():output;
  };
 // Do not change the code below.
-// const shortHex = prompt("Enter Short Hex.");
-// alert(extendHex(shortHex));
+const shortHex = prompt("Enter Short Hex.");
+alert(extendHex(shortHex));
