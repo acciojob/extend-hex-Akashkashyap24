@@ -3,6 +3,7 @@ const extendHex = (shortHex) => {
   let ans="#",l=shortHex.length,i=1;
   while(i<=l){
     ans=ans+shortHex[i]+shortHex[i];
+	  i++;
   }
   return ans;
 };
